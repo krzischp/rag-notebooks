@@ -17,9 +17,13 @@ poetry add -D jupyter
 
 poetry shell
 source ~/.git-prompt.sh
+poetry lock
 poetry install
 // If this is the 1st time you run it, this will create the poetry.lock file.
 // You should commit the poetry.lock file to your project repo so that all people working on the project are locked to the same versions of dependencies (more below).
 // As a result you will have all dependencies requested by your pyproject.toml file, but they may not all be at the very latest available versions (some dependencies listed in the poetry.lock file may have released newer versions since the file was created).
 
 poetry run jupyter notebook
+
+Then access via
+http://127.0.0.1:8888/tree?token=f6391e5c81f7e1966ebc0a1e972ab8098ae324a7652434ef

@@ -9,6 +9,8 @@ readme = "README.md"
 python = "^3.11"
 numpy = "^1.26.4"
 pandas = "^2.2.2"
+llama-index = {version = "0.9.7", python = ">=3.11,<3.12"}
+python-dotenv = "1.0.1"
 
 [tool.poetry.group.dev.dependencies]
 jupyter = "^1.0.0"
