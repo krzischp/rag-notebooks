@@ -6,10 +6,10 @@ authors = ["Pierre"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.11,<3.12"
+python = ">=3.9,<3.12.0"
 numpy = "^1.26.4"
 pandas = "^2.2.2"
-llama-index = {version = "0.9.7", python = ">=3.11,<3.12"}
+llama-index = {version = "0.9.7", python = ">=3.9,<3.12"}
 python-dotenv = "1.0.1"
 fastapi = "0.100.1"
 pydantic = "^1.10.8"
@@ -32,6 +32,9 @@ nltk = "^3.8.1"
 cachetools = "^5.3.1"
 greenlet = "^2.0.2"
 email-validator = "^2.0.0.post2"
+transformers = "^4.40.1"
+sentencepiece = "^0.2.0"
+torch = "^2.3.0"
 
 [tool.poetry.group.dev.dependencies]
 jupyter = "^1.0.0"

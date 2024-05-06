@@ -29,3 +29,16 @@ poetry run jupyter notebook
 
 Then access via
 http://127.0.0.1:8888/tree?token=f6391e5c81f7e1966ebc0a1e972ab8098ae324a7652434ef
+
+
+// use another python version instead of 3.11:
+poetry env use python3.11
+poetry env use python3.10
+poetry env use python3.9
+
+pip install torch
+
+
+/Users/pierre.krzisch/Library/Caches/pypoetry/virtualenvs/llamaindex-aXSEK_yV-py3.10/bin/pip install torch llama-index transformers accelerate sentencepiece bitsandbytes
+
+https://python-poetry.org/docs/managing-environments/
