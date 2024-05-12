@@ -42,3 +42,5 @@ pip install torch
 /Users/pierre.krzisch/Library/Caches/pypoetry/virtualenvs/llamaindex-aXSEK_yV-py3.10/bin/pip install torch llama-index transformers accelerate sentencepiece bitsandbytes
 
 https://python-poetry.org/docs/managing-environments/
+
+poetry show llama_parse
